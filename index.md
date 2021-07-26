@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <title> Resume </title>
 <body>
 
