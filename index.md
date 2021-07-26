@@ -2,9 +2,11 @@
 <body>
 
 <center>
-    <h1> This a example of html </h1>
-
-    <p> Hello i am michael and this is the video that helped create this website <a href="https://www.youtube.com/watch?v=WwNuvGLblJU"target="blank">youtube.</a> </p>
+    <h1> This is a example of html </h1>
+    
+    <h2> Hey abby, Hey Tyhrel </h2>
+    
+    <p> Hello i am michael and this is the video that helped me create this website <a href="https://www.youtube.com/watch?v=WwNuvGLblJU"target="blank">youtube.</a> </p>
 
     <p>Here is a video!</p>
 
