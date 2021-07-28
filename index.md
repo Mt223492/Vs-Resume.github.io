@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <title> Resume </title>
 <header>
     <div class="container">
@@ -18,7 +17,7 @@
 <center>
 <div class="homepage">
     <h1> This is an example of html </h1>
-    <link href="stylesheet/style.css" rel="stylesheet" type="text/css">
+    <link href=" https://mt223492.github.io/Vs-resume.github.io/stylesheet/style.css" rel="stylesheet" type="text/css">
     <p> Hello i am michael and this is the video that helped create this website <a href="https://www.youtube.com/watch?v=WwNuvGLblJU"target="blank">youtube.</a> </p>
 </div>
     
