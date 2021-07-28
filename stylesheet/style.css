@@ -24,7 +24,7 @@ nav {
 }
 
 nav ul {
-   margin 0;
+   margin: 0;
    padding: auto;
    list-style: none;
 }
@@ -62,4 +62,8 @@ nav a::before {
 
 nav a:hover::before {
    width: 100%;
+}
+
+.homepage{
+   margin:40px auto;
 }
