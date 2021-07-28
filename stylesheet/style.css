@@ -1,6 +1,6 @@
 body {
    margin: 0;
-   background: rgb(95, 158, 160);
+   background: rgb(95, 158, 160)solid;
    font-family: "work 5ans", sans-serif;
    font-weight: 400; 
 }
