@@ -36,7 +36,7 @@
 <div class="image">
     <p> This was my original website code on atom </p>
 
-    <img width="560" height="315" src="shareing code.PNG">
+    <img width="560" height="315" src="images/shareing code.PNG">
     </center>
 </div>
 </body>
