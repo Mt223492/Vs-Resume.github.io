@@ -1,3 +1,18 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(19, 153, 158);
+}
+
+li, a, button {
+   font-family: "work sans", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color: #000;
+   text-decoration: none;
+}
+
 body {
    margin: 0;
    background: rgb(95, 158, 160);
@@ -11,7 +26,10 @@ body {
 }
 
 header {
-   background: rgb(224, 255, 220);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
 }
 
 header::after {
@@ -19,47 +37,70 @@ header::after {
    display: table;
    clear: both;
 }
-nav {
-   float: left;
-}
-
-nav ul {
-   margin: 0;
-   padding: auto;
-   list-style: none;
-}
-
-nav li {
+.nav_links li {
    display: inline-block;
-   margin-left: 70px;
-   padding-top: 25px;
-position: relative;
+   padding: 0px 20px;
 }
 
-nav a {
-   color: rgb(0, 0, 139);
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 14px;
+.nav_links li a:hover {
+   transition: all 0.3s ease 0s; 
 }
 
-nav a:hover {
-   color: #000;
+button {
+   padding: 9px 25px;
+   background: rgba(0,136,169,1);
+   border: none;
+   border-radius: 50px;
+   cursor:pointer
+   transition: all 0.3s ease 0s;
 }
 
-nav a::before {
-   content: '';
-   display: block;
-   height: 5px;
-   background-color: rgb(0, 100, 0);
-
-   position: absolute;
-   top: 0;
-   width: 0%;
-
-   transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
-   width: 100%;
-}
+button:hover {
+   background-color: rgba(0,136,169,0.8);
+ }
+ .nav_links li a 
+ av {
+    float: left;
+ }
+ 
+ nav ul {
+    margin: 0;
+    padding: auto;
+    list-style: none;
+ }
+ 
+ nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+ position: relative;
+ }
+ 
+ nav a {
+    color: rgb(0, 0, 139);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+ }
+ 
+ nav a:hover {
+    color: #000;
+ }
+ 
+ nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(0, 100, 0);
+ 
+    position: absolute;
+    top: 0;
+    width: 0%;
+ 
+    transition: all ease-in-out 250ms;
+ }
+ 
+ nav a:hover::before {
+    width: 100%;
+ }
+ 
