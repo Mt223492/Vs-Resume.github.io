@@ -2,6 +2,7 @@
 <title> Resume </title>
 
 <head>
+
     <head>
         <link rel="stylesheet" href="nav_bar.css">
     </head>
@@ -10,26 +11,52 @@
 
 <body>
     <header>
-        <nav class="nav_links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="map.html">Map</a></li>
-                <li><a href="picture.html">Original code</a></li>
-            </ul>
+        <nav>
+            <div class="nav_links" id="navlinks">
+                <i class="fa-solid fa-xmark onclick=" hidemenu()></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="map.html">Map</a></li>
+                    <li><a href="picture.html">Original code</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-list" onclick="showmenu()>
         </nav>
         <a class="cta" href="#"><button>contact</button></a>
     </header>
 
-<br>
-<br>
-<br>
-        <div class="homepage">
-            <h1>This is an example of html</h1>
-            <p> Hello i am michael and this is the video that helped create this website 
-                   <br>
-                   <br>
-                  <a href="https://www.youtube.com/watch?v=WwNuvGLblJU" class="video" target="blank">youtube</a> </p>
-        </div> 
+    <br>
+    <br>
+    <br>
+    <div class="homepage">
+        <h1>This is an example of html</h1>
+        <p> Hello i am michael and this is the video that helped create this website
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=WwNuvGLblJU" class="video" target="blank">youtube</a>
+        </p>
+    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<!-----javascript for toggle menu---->
+    <script>
+        var navlinks = document.getElementById("navlinks")
 
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
